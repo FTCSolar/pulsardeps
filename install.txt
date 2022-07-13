@@ -1,0 +1,18 @@
+. ~/.profile 
+sudo apt update
+sudo apt install protobuf-compiler
+sudo apt install libcurl
+sudo apt install libcurl4-openssl-dev
+sudo apt install libcurl-devel
+sudo apt install curl_library
+sudo apt install build-essential libboost-system-dev libboost-thread-dev libboost-program-options-dev libboost-test-dev
+sudo apt install libboost-python-dev
+sudo apt install clang-tidy clang-format
+sudo apt update
+
+cd ~/Downloads/pulsar-source/pulsar/pulsar-client-cpp/python
+
+sudo ../../../PulsarOnRaspberryPi/build.sh 
+python -m pip install twine
+twine check dist/*
+twine upload --repository-url https://test.pypi.org/legacy/ dist/*
