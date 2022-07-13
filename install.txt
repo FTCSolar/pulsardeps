@@ -13,6 +13,13 @@ sudo apt update
 
 https://boostorg.jfrog.io/artifactory/main/release/1.79.0/source/boost_1_79_0.tar.gz
 
+
+
+https://stackoverflow.com/questions/40491536/boost-python-and-cmake-with-ubuntu-and-python3-5
+
+http://ftp.cn.debian.org/debian/pool/main/b/boost-defaults/libboost-python-dev_1.62.0.1_i386.deb
+deb http://ftp.de.debian.org/debian stretch main
+
 cd ~/Downloads/pulsar-source/pulsar/pulsar-client-cpp/python
 
 sudo ../../../PulsarOnRaspberryPi/build.sh 
