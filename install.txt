@@ -1,6 +1,7 @@
 . ~/.profile 
 sudo apt update
 sudo apt install protobuf-compiler
+sudo apt install libssl-dev libsqlite3-dev tk-dev libc6-dev libbz2-dev cmake
 sudo apt install libcurl
 sudo apt install libcurl4-openssl-dev
 sudo apt install libcurl-devel
@@ -9,6 +10,8 @@ sudo apt install build-essential libboost-system-dev libboost-thread-dev libboos
 sudo apt install libboost-python-dev
 sudo apt install clang-tidy clang-format
 sudo apt update
+
+https://boostorg.jfrog.io/artifactory/main/release/1.79.0/source/boost_1_79_0.tar.gz
 
 cd ~/Downloads/pulsar-source/pulsar/pulsar-client-cpp/python
 
